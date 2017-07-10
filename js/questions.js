@@ -488,6 +488,6 @@ function creaBoton(enDiv)
   b.className="start";
   b.type="button";
   b.value="¿Nuevo intento?";
-  b.onclick=function(){window.location.reload()};
+ /*b.onclick=function(){window.location.reload()};*/
   enDiv.appendChild(b);
 }
